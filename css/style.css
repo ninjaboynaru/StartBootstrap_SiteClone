@@ -36,16 +36,18 @@ body {
 	max-width: 60px;
 }
 .content-box-orange hr { border-color:white }
-.content-box-white .content-title { color:black }
+.content-box-white .content-title, .content-box-white .content-title-large { color:black }
 
 
 .service-title,
-.content-title {
+.content-title,
+.content-title-large {
 	font-size:1.7em;
 	font-weight:bold;
 	text-align:center;
 	line-height:120%;
 }
+
 
 .content-text {
 	color:#C9C7C6;
@@ -101,6 +103,10 @@ body {
 .no-padding{
 	padding-top:0 !important;
 	padding-bottom:0 !important;
+}
+.expanded-vert-padding {
+	padding-top:100px !important;
+	padding-bottom:100px !important;
 }
 
 .clear-fix {
@@ -175,8 +181,18 @@ body {
 	.content-title {
 		font-size:2em;
 	}
+	.content-title-large {
+		font-size:3em;
+	}
 	.content-text {
 		font-size:1.2em;
+	}
+	
+	.content-button,
+	.content-button-white {
+		width:auto;
+		padding-left:5%;
+		padding-right:5%;
 	}
 	
 	.service-box {
