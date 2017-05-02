@@ -1,0 +1,208 @@
+/* Mobile First */
+
+
+@font-face {
+	font-family:"Monofur";
+	src:url("../fonts/monof55.ttf");
+}
+
+html { height:100%; }
+body {
+	min-height:100%;
+	margin:0;
+	padding:0;
+	font-family:'Helvetica', 'Open Sans', sans-serif;
+}
+
+
+
+/*-------- BASE --------*/
+.content-box,
+.content-box-white,
+.content-box-orange {
+	color:white;
+	text-align:center;
+	padding:20px 5%;
+	
+}
+.content-box-white{ background-color:white }
+.content-box-orange{ background-color:#F05F40 }
+
+.content-box hr,
+.content-box-white hr,
+.content-box-orange hr{
+	border:3px solid #F05F40;
+	border-top:0;
+	max-width: 60px;
+}
+.content-box-orange hr { border-color:white }
+.content-box-white .content-title { color:black }
+
+
+.service-title,
+.content-title {
+	font-size:1.7em;
+	font-weight:bold;
+	text-align:center;
+	line-height:120%;
+}
+
+.content-text {
+	color:#C9C7C6;
+	line-height:160%;
+}
+
+.content-button,
+.content-button-white {
+	width:50%;
+	padding:10px;
+	margin:70px 0;
+	
+	border:5px solid #F05F40;
+	border-radius:50px;
+	
+	color:white;
+	cursor:pointer;
+	background-color:#F05F40;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-family:'Open Sans', 'sans-serif';
+	
+}
+.content-button-white {
+	background-color:white;
+	border-color:white;
+	color:black;
+}
+
+
+
+.service-box {
+	margin-top:50px;
+}
+.service-icon {
+	color:#F05F40;
+}
+
+.service-title {
+	text-transform: none;
+	font-weight:normal;
+	color:black;
+}
+
+
+
+/*-------- STATE --------*/
+.no-padding,
+.no-horiz-padding {
+	padding-left:0 !important;
+	padding-right:0 !important;
+}
+.no-padding{
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+}
+
+.clear-fix {
+	overflow:auto;
+	zoom:1; /* IE6 support (trigger "hasLayout") */
+}
+
+
+
+
+/*-------- MODULES --------*/
+.nav-button,
+.nav {
+	background-color:white;
+	font-family:'Open Sans','Helvetica Neue', sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.nav {
+	padding:10px 5%;
+}
+.nav-button {
+	color:black;
+	border:1px solid gray;
+	border-radius:5px;
+	float:right;
+}
+
+
+.project-img {
+	float:left;
+	width:100%;	
+	height:auto;
+}
+
+
+
+
+/*-------- THEME --------*/
+.background-main-image {
+	background-image:url('https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg');
+	background-size:cover;
+	background-position:center;
+}
+
+.background-orange {
+	background-color:#F05F40;
+}
+.background-black {
+	background-color:#222222;
+}
+.color-black {
+	color:#222222;
+}
+.color-orange {
+	color:#F05F40;
+}
+
+
+
+
+/*-------- MEDIA QUERY --------*/
+@media screen and (min-width:768px)
+{
+	
+	/*-------- QUERY BASE --------*/
+	.content-box,
+	.content-box-white,
+	.content-box-orange {
+		padding:20px 20%;
+	}
+	.content-title {
+		font-size:2em;
+	}
+	.content-text {
+		font-size:1.2em;
+	}
+	
+	.service-box {
+		display:inline-block;
+		width:20%;
+	}
+	
+	
+	/*-------- QUERY OTHER --------*/
+	.no-padding-desktop {
+		padding-left:0 !important;
+		padding-right:0 !important;
+	}
+	
+	.project-img {
+		width:33.333%
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
